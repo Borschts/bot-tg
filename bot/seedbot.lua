@@ -223,6 +223,11 @@ function create_config( )
     "download_media",
     "invite",
     "all",
+    "Danestaniha_Plugin",
+    "Joke_Plugin",
+    "Jomlak_Plugin",
+    "Quran_Plugin",
+    "gps",
     "leave_ban",
     "admin"
     },
@@ -292,6 +297,21 @@ Kick all members and delete realm
 !addadmin [id|username]
 Promote an admin by id OR username *Sudo only
 
+!danestani
+send knowing texts
+
+!jomlak 
+send random texts
+
+!joke
+send random joke
+
+sura (num) : نمایش سوره
+read (num) : قرائت
+quran : لیست سوره ها
+
+!gps
+
 !removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
 
@@ -312,6 +332,26 @@ Only sudo users can run this command
 !bc [group_id] [text]
 !bc 123456789 Hello !
 This command will send text to [group_id]
+
+-----------------------------
+پلاگین های اضافی بات برای ادمین اصلی
+
+!danestani
+send knowing texts
+
+!jomlak 
+send random texts
+
+!joke
+send random joke
+
+sura (num) : نمایش سوره
+read (num) : قرائت
+quran : لیست سوره ها
+
+!gps
+
+
 
 
 **U can use both "/" and "!" 
@@ -418,6 +458,24 @@ returns user id
 will return group logs
 
 !banlist
+-----------------------------
+پلاگین های اضافه بات
+
+!danestani
+send knowing texts
+
+!jomlak 
+send random texts
+
+!joke
+send random joke
+
+sura (num) : نمایش سوره
+read (num) : قرائت
+quran : لیست سوره ها
+
+!gps
+
 will return group ban list
 
 **U can use both "/" and "!" 
